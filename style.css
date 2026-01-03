@@ -122,6 +122,10 @@ body{
     cursor: pointer;
 }
 
+.login-btn:hover{
+    padding: 18px 32px;
+}
+
 .left-side{
     position: fixed;
     border-radius: 8px;
@@ -131,6 +135,25 @@ body{
     height: 98%;
     background-color: #121212;
     color: white;
+}
+
+.songlist ul{
+    list-style: none;
+    height: 400px;
+    overflow-y: scroll;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.songlist ul li {
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .right-side{

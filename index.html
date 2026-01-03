@@ -30,17 +30,17 @@
         </div>
         <div class="login-side">
             <div class="right-text">
-                <span>Premium</span>
-                <span>Support</span>
-                <span>Download</span>              
+                <span class="btns">Premium</span>
+                <span class="btns">Support</span>
+                <span class="btns">Download</span>              
             </div>
             <div class="line"></div>
-            <div class="install">
+            <div class="install btns">
                 <span><img class="imgs" width="18px" src="assets/img/download.svg" alt=""></span>
                 <span>Install App</span>
             </div>
             <div>
-                <button class="signup-btn">Sign up</button>
+                <button class="signup-btn btns">Sign up</button>
                 <button class="login-btn"><span>Log in</span></button>
             </div>
         </div>
@@ -50,7 +50,11 @@
             <h4>Your Library</h4>
             <span><img class="imgs" src="assets/img/plus.svg" alt=""></span>
         </div>
-
+        <div class="songlist">
+            <ul>
+                
+            </ul>
+        </div>
         <footer class="left-footer">
             <div class="left-items">
                 <div class="left-list">
@@ -80,64 +84,78 @@
                         <p>Description for Playlist 1</p>
                     </div>
                 </div>
-            </div>
-            <footer>
-                <div class="sepration"></div>
-                <div>
-                    <div class="footer-div">
-                        <div class="footerinner">
-                            <div class="right-footer">
-                                <div class="foot-items">
-                                    <div class="items-list">
-                                        <div class="foot-heading">Company</div>
-                                        <p>About</p>
-                                        <p>Jobs</p>
-                                        <p>For the Record</p>
-                                    </div>
-                                </div>
-                                <div class="foot-items">
-                                    <div class="items-list">
-                                        <div class="foot-heading">Communities</div>
-                                        <p>For Artists</p>
-                                        <p>Developers</p>
-                                        <p>Advertising</p>
-                                        <p>Investors</p>
-                                        <p>Vendors</p>
-                                    </div>
-                                </div>
-                                <div class="foot-items">
-                                    <div class="items-list">
-                                        <div class="foot-heading">Useful Links</div>
-                                        <p>Support</p>
-                                        <p>Free Mobile App</p>
-                                        <p>Popular by Country</p>
-                                        <p>Import your music</p>
-                                    </div>
-                                </div>
-                                <div class="foot-items">
-                                    <div class="items-list">
-                                        <div class="foot-heading">Spotify Plans</div>
-                                        <p>Premium Lite</p>
-                                        <p>Premium Standard</p>
-                                        <p>Premium Platinum</p>
-                                        <p>Premium Student</p>
-                                        <p>Spotify Free</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="social-media">
-                                <div class="media-icon"><img class="imgs" src="assets/img/insta.svg" alt=""></div>
-                                <div class="media-icon"><img class="imgs" src="assets/img/twitter.svg" alt=""></div>
-                                <div class="media-icon"><img class="imgs" src="assets/img/fb.svg" alt=""></div>
-                            </div>
-                        </div>
-                        <div class="sepration"></div>
-                        <div class="last"><p style="font-size: 12px;">&copy; 2025 Spotify AB</p></div>
-                    </div>
-                </div>
                 
-    
-            </footer>
+                <footer>
+                    <div class="sepration"></div>
+                    <div>
+                        <div class="footer-div">
+                            <div class="footerinner">
+                                <div class="right-footer">
+                                    <div class="foot-items">
+                                        <div class="items-list">
+                                            <div class="foot-heading">Company</div>
+                                            <p>About</p>
+                                            <p>Jobs</p>
+                                            <p>For the Record</p>
+                                        </div>
+                                    </div>
+                                    <div class="foot-items">
+                                        <div class="items-list">
+                                            <div class="foot-heading">Communities</div>
+                                            <p>For Artists</p>
+                                            <p>Developers</p>
+                                            <p>Advertising</p>
+                                            <p>Investors</p>
+                                            <p>Vendors</p>
+                                        </div>
+                                    </div>
+                                    <div class="foot-items">
+                                        <div class="items-list">
+                                            <div class="foot-heading">Useful Links</div>
+                                            <p>Support</p>
+                                            <p>Free Mobile App</p>
+                                            <p>Popular by Country</p>
+                                            <p>Import your music</p>
+                                        </div>
+                                    </div>
+                                    <div class="foot-items">
+                                        <div class="items-list">
+                                            <div class="foot-heading">Spotify Plans</div>
+                                            <p>Premium Lite</p>
+                                            <p>Premium Standard</p>
+                                            <p>Premium Platinum</p>
+                                            <p>Premium Student</p>
+                                            <p>Spotify Free</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="social-media">
+                                    <div class="media-icon"><img class="imgs" src="assets/img/insta.svg" alt=""></div>
+                                    <div class="media-icon"><img class="imgs" src="assets/img/twitter.svg" alt=""></div>
+                                    <div class="media-icon"><img class="imgs" src="assets/img/fb.svg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="sepration"></div>
+                            <div class="last"><p style="font-size: 12px;">&copy; 2025 Spotify AB</p></div>
+                        </div>
+                    </div>
+                    
+        
+                </footer>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songbtn">
+                    <img id="previous" src="assets/img/previous.svg" alt="">
+                    <img id="play" src="assets/img/playbtn.svg" alt="">
+                    <img id="next" src="assets/img/next.svg" alt="">
+                </div>
+                <div class="songtime">
+
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

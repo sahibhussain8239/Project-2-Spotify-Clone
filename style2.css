@@ -1,11 +1,8 @@
 .spotifyPlaylists{
-    margin: 15px;
-    height: 83%;
+    margin: 0px 15px;
+    height: 86%;
     min-height: 0;
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    overflow-y: scroll;
+    position: relative;
 }
 
 .right-side h2{
@@ -16,6 +13,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    margin: 15px;
+    height: 92%;
+    min-height: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    position: relative;
 }
 
 .card {
@@ -69,4 +74,67 @@
 .play img{
     width: 25px;
     height: 25px;
+}
+
+/* ScrollBar CSS */
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #222;
+}
+
+/* utility for on hover font */
+.btns:hover{
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    z-index: 12;
+    width: 99%;
+    background-color: rgb(45, 217, 45);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.songbtn{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.seekbar{
+    height: 2px;
+    width: 97%;
+    background: white;
+    position: absolute;
+    bottom: 3px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    bottom: 5px;
+    left: 0%;
+    transition: left 0.5s;
+}
+
+.songbtn img{
+    cursor: pointer;
 }
