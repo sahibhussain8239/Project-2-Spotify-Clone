@@ -1,0 +1,254 @@
+/* This is style for left side and right side footer */
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.logo-side{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 5px 15px;
+}
+.homebtn{
+    background-color: #1f1f1f;
+    border-radius: 70px;
+    padding: 7px;
+}
+.homebtn img{
+    filter: invert();
+    width: 25px;
+}
+
+.imgs{
+    filter: invert();
+    width: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.input-bar{
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    border-radius: 70px;
+    padding: 0px 15px;
+    gap: 10px;
+    position: relative;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.line{
+    background: #fff;
+    height: 25px;
+    margin: 16px;
+    width: 1px;
+}
+.inputB{
+    position: relative;
+}
+.inputB input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 0;
+    width: 350px;
+}
+.input-text{
+    position: absolute;
+    left: 55px;
+    pointer-events: none;
+    transition: 0.3s;
+    z-index: 1;
+}
+.input-bar img{
+    width: 25px;
+}
+
+.login-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-text{
+    display: flex;
+    gap: 20px;
+    color: #b3b3b3;
+    font-weight: 700;
+}
+
+.install{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    padding: 10px 15px;
+    justify-content: center;
+    color: #b3b3b3;
+}
+
+.install img{
+    width: 15px;
+}
+.signup-btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px 25px;
+    color: #b3b3b3;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-btn{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    color: black;
+    font-weight: 900;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.left-side{
+    position: fixed;
+    border-radius: 8px;
+    top: 4.5rem;
+    left: 10px;
+    width: 24%;
+    height: 98%;
+    background-color: #121212;
+    color: white;
+}
+
+.right-side{
+    position: fixed;
+    border-radius: 8px;
+    top: 4.5rem;
+    right: 10px;
+    width: 74%;
+    height: 98%;
+    background-color: #121212;
+    color: white;
+}
+
+.library-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.left-items {
+    margin: 32px 0;
+    padding: 0 24px;
+    text-align: start;
+}
+
+.left-list{
+    display: flex;
+    flex-wrap: wrap;
+    color: #b3b3b3;
+    font-size: 11px;
+}
+
+.list-content{
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+.langbtn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+.langbtn-box{
+    margin-bottom: 32px;
+    padding: 0 24px;
+}
+
+.sepration{
+    height: 2px;
+    background-color: #1f1f1f;
+    margin: 24px auto;
+    width: 95%;
+}
+
+.footer-div{
+    padding: 8px 32px 40px 32px;
+
+}
+
+.footerinner{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-items{
+    display: flex;
+    gap: 20px;
+    color: #b3b3b3;
+    font-size: 13px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    width: 20%;
+}
+
+.foot-heading{
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+.right-footer{
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.social-media{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 32px;
+}
+
+.media-icon{
+    width: 35px;
+    height: 35px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.media-icon img{
+    padding: 10px 10px;
+    width: 15px;
+}
+
+.items-list p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 8px 0;
+}

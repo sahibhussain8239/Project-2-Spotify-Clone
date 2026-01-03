@@ -1,0 +1,72 @@
+.spotifyPlaylists{
+    margin: 15px;
+    height: 83%;
+    min-height: 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.right-side h2{
+    margin: 5px 20px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card {
+    width: 190px;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.card p{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.card h3{
+    margin: 5px 0px;
+    font-size: 16px;
+    color: white;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: #252525;
+}
+
+.right-side footer{
+    width: 100%;
+}
+
+.play{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    background-color: #1ed763;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 87px;
+    right: 18px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.play img{
+    width: 25px;
+    height: 25px;
+}
